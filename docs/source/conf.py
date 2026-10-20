@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'template-project'
+project = 'Nekomata'
 copyright = '2026-%Y, Equipe Paralela'
-author = 'template-author'
+author = 'Guilherme Nunes Trofino'
 release = 'v1.0.0'
 
 # -- General configuration ---------------------------------------------------
@@ -18,11 +18,17 @@ extensions = [
     'sphinx_design',
     'sphinx.ext.duration',
     "sphinx.ext.intersphinx",
-    'sphinxcontrib.mermaid',
 ]
 
 templates_path = ['_templates']
 exclude_patterns = []
+
+intersphinx_mapping = {
+    "paralela-template": ("https://paralela-template.readthedocs.io/en/latest/", None),
+    "sumo-firmware": ("https://sumo-firmware.readthedocs.io/en/latest/", None),
+    "sumo-hardware": ("https://sumo-hardware.readthedocs.io/en/latest/", None),
+}
+
 
 
 # -- Options for HTML output -------------------------------------------------
