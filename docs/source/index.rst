@@ -1,7 +1,7 @@
 Nekomata
 ========
 
-Nekomata (`猫また <https://en.wikipedia.org/wiki/Nekomata>`_) means supernatural cat and it is an open source 3kg sumo robot.
+Nekomata (`猫また <https://en.wikipedia.org/wiki/Nekomata>`_) means supernatural cat with multiple tails and it is an open source 3kg sumo robot.
 
 .. toctree::
    :maxdepth: 2
