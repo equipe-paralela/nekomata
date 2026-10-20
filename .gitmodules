@@ -1,6 +1,0 @@
-[submodule "docs/sumo-firmware"]
-	path = docs/sumo-firmware
-	url = https://github.com/equipe-paralela/sumo-firmware
-[submodule "docs/sumo-hardware"]
-	path = docs/sumo-hardware
-	url = https://github.com/equipe-paralela/sumo-hardware
